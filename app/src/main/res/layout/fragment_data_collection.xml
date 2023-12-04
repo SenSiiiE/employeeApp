@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".FragmentContainer.DataCollectionFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+
+            android:elevation="26dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="22dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="9dp"
+
+            android:layout_height="320dp" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+
+                android:src="@drawable/parvesh1" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/curved_text_bg"
+
+            android:fontFamily="@font/sarabunbold"
+
+            android:gravity="center"
+            android:text="Data Collection:"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:gravity="start"
+            android:fontFamily="@font/sarabunmediumitalic"
+            android:text="Data collection is the process of gathering and measuring information on targeted
+variables in an established system, which then enables one to answer relevant questions
+and evaluate outcomes Data collection is a component of research in all fields of study
+including physical and social sciences, humanities and business. While methods vary by discipline,
+the emphasis on ensuring accurate and honest collection remains the same. The goal for all data
+collection is to capture quality evidence that allows analysis to lead to the formulation of
+convincing and credible answers to the questions that have been posed.
+
+"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:stretchColumns="*">
+
+            <!-- Define table headers -->
+            <TableRow>
+                <TextView
+                    android:gravity="center"
+                    android:text="DataSource"
+                    android:padding="5dp"
+
+                    android:background="@drawable/table_row_border"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="  Kaggle"
+                    android:padding="5dp"
+
+                    android:background="@drawable/table_row_border"
+                    android:textStyle="bold" />
+
+                <!-- Add more headers if needed -->
+            </TableRow>
+            <TableRow >
+                <TextView
+                    android:gravity="center"
+                    android:text="Dataset used"
+                    android:padding="5dp"
+                    android:background="@drawable/table_row_border"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="  Human Resources Analytics"
+                    android:padding="5dp"
+
+                    android:background="@drawable/table_row_border"
+                    android:textStyle="bold" />
+
+                <!-- Add more headers if needed -->
+            </TableRow> <TableRow>
+            <TextView
+                android:gravity="center"
+                android:padding="5dp"
+
+                android:text="Size"
+                android:background="@drawable/table_row_border"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:text="  554 KB"
+                android:padding="5dp"
+
+                android:background="@drawable/table_row_border"
+                android:textStyle="bold" />
+
+            <!-- Add more headers if needed -->
+        </TableRow> <TableRow>
+            <TextView
+                android:gravity="center"
+                android:text="Rows"
+                android:padding="5dp"
+
+                android:background="@drawable/table_row_border"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:text="  15000 "
+                android:padding="5dp"
+
+                android:background="@drawable/table_row_border"
+                android:textStyle="bold" />
+
+            <!-- Add more headers if needed -->
+        </TableRow>
+            <TableRow>
+                <TextView
+                    android:gravity="center"
+                    android:text="Column"
+                    android:padding="5dp"
+
+                    android:background="@drawable/table_row_border"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/iam"
+                    android:background="@drawable/table_row_border"
+                    android:gravity="center"
+
+                    android:padding="5dp"
+                    android:text="  10 "
+                    android:textStyle="bold" />
+
+                <!-- Add more headers if needed -->
+            </TableRow>
+            <!-- Add table rows dynamically using Java -->
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Discription"
+        android:title="Discription"
+        />
+    <item
+        android:id="@+id/DataCollection"
+        android:title="Data Coolection"
+        />
+    <item
+        android:id="@+id/DataPreparation"
+        android:title="Data Preparation"
+        />
+    <item
+        android:id="@+id/Performance"
+        android:title="Performance"
+        />
+    <item
+        android:id="@+id/Deployment"
+        android:title="Deploymnet"
+        />
+</menu>
